@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head> </head>
+  <link rel="stylesheet" href="styles.css" />
+  <body>
+    <h1>Weight Tracker</h1>
+    <div>
+      <div class="inputContainer" id="inputContainer">
+        <div>
+          <form id="toDoForm" target="blank">
+            <div>
+              <label for="date">Date:</label>
+              <input type="date" class="date" id="date" required />
+            </div>
+            <div>
+              <label for="weight">Weight:</label>
+              <input
+                type="number"
+                class="number"
+                id="weight"
+                min="50"
+                max="500"
+                required
+              />
+            </div>
+            <div>
+              <label for="unit">Unit of Measurement:</label>
+              <select name="unit" class="unit" id="unit" required>
+                <option value="lbs">lbs</option>
+                <option value="kgs">kgs</option>
+              </select>
+            </div>
+            <div>
+              <label for="text">Notes:</label>
+              <input class="text" id="text" type="text" required></input>
+            </div>
+            <div>
+              <button type="submit" class="submitButton" id="submitButton">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <table class="tableResult" id="tableResult" border="1"></table>
+  </body>
+  <script src="script.js"></script>
+</html>

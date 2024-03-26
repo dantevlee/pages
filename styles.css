@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f7f4f2;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputContainer {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 300px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: 	#d5cfc7;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+  }
+
+input[type="date"],
+input[type="number"],
+input[type="text"],
+select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-weight: bolder;
+
+  }
+
+  th, td {
+    padding: 8px 12px;
+    text-align: center;
+    background-color: #f7f4f2;
+  }
+  
+  th {
+    background-color:	#a1ada2;
+    color: black;
+  }
+
+  button {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 5px;
+  }
+
+  button:hover {
+    background-color: #c82333;
+}
+  }
